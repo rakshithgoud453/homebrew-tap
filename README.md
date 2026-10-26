@@ -16,7 +16,7 @@
 
 | Tool | Description | Version | Install Command |
 | :--- | :--- | :---: | :--- |
-| **[`termcall`](https://github.com/rakshithgoud453/TermCall)** | Direct, peer-to-peer encrypted terminal voice link in Go | `0.1.0` | `brew install rakshithgoud453/tap/termcall` |
+| **[`termcall`](https://github.com/rakshithgoud453/TermCall)** | Direct, peer-to-peer encrypted terminal voice link in Go | `0.2.0` | `brew install rakshithgoud453/tap/termcall` |
 | **[`myvault`](https://github.com/rakshithgoud453/myvault)** | Local-first, CLI-first secret manager for developers | `0.4.2` | `brew install rakshithgoud453/tap/myvault` |
 
 ---
