@@ -4,7 +4,7 @@ class Converze < Formula
   url "https://github.com/rakshithgoud453/converze-matchmaker/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "PLACEHOLDER_SHA256"
   license "MIT"
-  head "https://github.com/rakshithgoud453/converze-matchmaker.git", branch: "master"
+  head "https://github.com/rakshithgoud453/converze-matchmaker.git", branch: "main"
 
   depends_on "go" => :build
   depends_on "pkg-config" => :build
@@ -21,3 +21,4 @@ class Converze < Formula
     assert_match "converze version", shell_output("#{bin}/converze --version")
   end
 end
+
