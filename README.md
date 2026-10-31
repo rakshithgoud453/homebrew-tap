@@ -16,7 +16,8 @@
 
 | Tool | Description | Version | Install Command |
 | :--- | :--- | :---: | :--- |
-| **[`termcall`](https://github.com/rakshithgoud453/TermCall)** | Direct, peer-to-peer encrypted terminal voice link in Go | `0.2.0` | `brew install rakshithgoud453/tap/termcall` |
+| **[`converze`](https://converze.org)** | Anonymous English voice practice CLI (powered by TermCall) | `0.1.0` | `brew install rakshithgoud453/tap/converze` |
+| **[`termcall`](https://github.com/rakshithgoud453/TermCall)** | Direct, peer-to-peer encrypted terminal voice link in Go | `0.2.1` | `brew install rakshithgoud453/tap/termcall` |
 | **[`myvault`](https://github.com/rakshithgoud453/myvault)** | Local-first, CLI-first secret manager for developers | `0.4.2` | `brew install rakshithgoud453/tap/myvault` |
 
 ---
@@ -30,6 +31,12 @@ brew tap rakshithgoud453/tap
 ```
 
 ### 2. Install Tools
+
+#### Install Converze
+Anonymous 1-on-1 English speaking practice in your terminal. Zero accounts, custom AI topic matching, direct P2P audio:
+```bash
+brew install converze
+```
 
 #### Install TermCall
 Peer-to-peer encrypted voice link in your terminal. Zero accounts, zero cloud relay, pure UDP hole-punching:
@@ -47,7 +54,7 @@ brew install myvault
 Keep your CLI tools up to date with the latest releases:
 ```bash
 brew update
-brew upgrade termcall myvault
+brew upgrade converze termcall myvault
 ```
 
 ---
@@ -56,7 +63,7 @@ brew upgrade termcall myvault
 
 To install the bleeding-edge development version directly from the default branch:
 ```bash
-brew install --HEAD rakshithgoud453/tap/termcall
+brew install --HEAD rakshithgoud453/tap/converze
 ```
 
 ---
